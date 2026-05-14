@@ -1,0 +1,648 @@
+ /* 头部样式开始 */
+.header{
+width: 100%;
+height: 55px;
+background-color: white ;
+font-size: 12px;
+line-height: 55px;
+}
+
+.header-left{
+float: left;
+width: 179px;
+height: 54px;
+background-color: #cf1132;
+color: white;
+}
+
+.header-right{
+float: right;
+width: 138px;
+height: 54px;
+border-left: 1px solid #dadada;
+color: #333;
+}
+
+/* 头部样式结束 */
+
+/* 导航开始 */
+
+.nav{
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    /* 不平铺 */
+    background: url(../images/nav_back_bg_fd2505e.jpg) no-repeat center top;
+}
+
+.wrap{
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.nav li{
+    float: left;
+    width: 84.2px;
+    height: 70px;
+}
+
+.nav a{
+    color: #fff;
+    font-size: 14px;
+}
+
+.nav span{
+    font-size: 12px;
+    margin-left: 8px;
+}
+
+.nav li:hover>a{
+    color: black;
+}
+
+.active{
+    background: url(../images/nav_bg1_d44f09d.jpg) no-repeat;
+}
+
+.active>a{
+    color: black;
+}
+
+.active span{
+    color: #c2a060;
+}
+
+.nav li:hover{
+    background: url(../images/nav_bg1_d44f09d.jpg) no-repeat;
+}
+
+.nav li:hover span{
+    color: #c2a060;
+}
+
+.nav-list{
+    z-index: 999;
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 60px;
+    width: 100%;
+    height: 140px;
+    background: url(../images/subnav_bg_5cc9309.jpg) no-repeat center 0;
+}
+
+.nav li:hover>.nav-list{
+        display: block;
+}
+
+/* 导航结束 */
+
+/* banner开始 */
+.banner{
+    position: relative;
+    top: -10px;
+    width: 100%;
+    height: 784px;
+    background-color: red;
+    overflow: hidden;
+}
+
+.banner>img{
+    z-index: 998;
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+}
+
+.logo{
+    position: absolute;
+    width: 77px;
+    height: 247px;
+    left: 150px;
+    top: 143px;
+    z-index: 1000;
+}
+
+.logo>a{
+    display: block;
+    width: 77px;
+    height: 247px;
+    background-color: saddlebrown;
+    background: url(../images/200.webp) no-repeat;
+    background-size: 100%;
+}
+/* banner结束 */
+
+/* 平安世界样式开始 */
+.shijie {
+    overflow: hidden;
+    width: 100%;
+    height: 495px;
+    margin: 43px 0 70px;
+}
+
+.shijie-tit {
+    width: 54px;
+    height: 145px;
+    float: left;
+    background: url("../images/index_z_8ea32f7.png");
+    background-position: -940px -532px;
+}
+
+.shijie-box {
+    width: 100%;
+    height: 454px;
+    padding-top: 1px;
+    margin-top: 40px;
+    background: url("../images/shishen_bg_000bc91.jpg") no-repeat center bottom;
+}
+
+.world-box {
+    position: relative;
+    width: 940px;
+    height: 320px;
+    margin: 128px auto 0;
+}
+
+.world-box > a {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+
+.sj-name {
+    left: 0;
+}
+
+.sj-role {
+    right: 0;
+}
+
+.sj-name > img,
+.sj-role > img {
+    position: relative;
+    top: -186px;
+    width: 1220px;
+    height: 558px;
+}
+
+.sj-name > img {
+    left: -140px;
+}
+
+.sj-role > img {
+    position: absolute;
+    right: -140px;
+}
+
+
+
+/* 平安世界样式结束 */
+/* 游戏攻略开始 */
+.game {
+    margin-top: 70px;
+    width: 1180px;
+    height: 510px;
+    margin: 0 auto;
+    background: url("../images/stategy_bg_4def7a7.jpg") no-repeat;
+    background-position: 0 174px;
+}
+
+.game-top {
+    width: 1180px;
+    height: 209px;
+}
+
+.game-top > a {
+    float: left;
+    width: 55px;
+    height: 145px;
+    background: url("../images/200.webp") ;
+    background-size: 100%;
+    background-position: -876px -532px;
+}
+
+.game-top-new {
+    width: 1080px;
+    height: 209px;
+    float: right;
+}
+
+.game-top-new > div {
+    position: relative;
+    width: 340px;
+    height: 209px;
+    margin-left: 20px;
+    float: left;
+    background-color: pink;
+}
+
+.game-top-new span {
+    position: absolute;
+    padding: 0 10px;
+    width: 20px;
+    height: 90px;
+    background: url("../images/code_role_bg_58d7f15.png")no-repeat center center;
+    color: #000;
+    font-size: 16px;
+    line-height: 18px;
+    transition: all .4s;
+    display: flex;
+    align-items: center;
+}
+
+.game-top-new em {
+    font-style: normal;
+}
+
+.game-top-new span:first-of-type {
+    top: 0;
+    left: 18px;
+}
+
+.game-top-new span:nth-of-type(2) {
+    top: 22px;
+    left: 68px;
+}
+
+.game-top-new > div:hover span {
+    transform: translateY(-10px);
+}
+
+.game-bottom {
+    width: 1180px;
+    height: 156px;
+    border: 2px solid #81c0a1;
+    border-top: none;
+    box-sizing: border-box;
+    margin-top: 75px; 
+}
+/* 游戏攻略结束 */
+
+/* 同人手账开始 */
+.tongren {
+    width: 1180px;
+    height: 487px;
+    margin: 0 auto;
+    background: url("../images/tongren_bg_4e00ea2.jpg") no-repeat;
+    background-position: 0 bottom;
+}
+
+.tongren>a {
+    width: 53px;
+    height: 144px;
+    float: left;
+    background: url("../images/index_z_203e03e.png");
+    background-position: -962px -530px;
+}
+
+.tong-ban {
+    width: 300px;
+    height: 456px;
+    float: left;
+    margin-left: 65px;
+}
+
+.ban-tit,
+.tong-tit {
+    width: 95px;
+    height: 23px;
+    margin-bottom: 18px;
+    
+}
+
+.ban-tit {
+    background-position: -1045px -687px;
+}
+
+.ban-img {
+    width: 300px;
+    height: 415px;
+    background-image: url("../images/1ecee501-bfd2-46b2-95fc-6cd88c63faa2.png");
+    animation: change 20s linear infinite;
+}
+
+@keyframes change {
+    0% {
+        background-image: url("../images/1ecee501-bfd2-46b2-95fc-6cd88c63faa2.png");
+    }
+
+    50% {
+        background-image: url("../images/636343c1-1786-41f4-a666-bc70e648b7b3.png");
+    }
+
+    100% {
+        background-image: url("../images/48a4f70a-058c-4cbf-84eb-27d09ed50f2a.jpg");
+    }
+}
+
+.tong-news {
+    width: 720px;
+    height: 522px;
+    float: right;
+}
+
+.tong-tit {
+    background-position: -615px -870px;
+    margin-left: 20px;
+}
+
+.tong-img>div {
+    float: left;
+    width: 220px;
+    height: 443px;
+    margin-left: 20px;
+}
+
+.tong-img{
+    transition: all .3s;
+    border: 1px solid transparent;
+}
+
+.tong-img>div:hover img {
+    box-shadow: 0 5px 30px #ccc;
+    border-color: #b0dfe7;
+}
+/* 同人手账结束 */
+
+/* 同人大触开始 */
+.ruzhu {
+    width: 100%;
+    height: 228px;
+    margin: 40px 0 70px;
+    background: url("../images/ruzhu_bg_1311a36.jpg") no-repeat center bottom;
+}
+
+.ruzhu-tit {
+    height: 23px;
+    line-height: 23px;
+}
+
+.line {
+    width: 1px;
+    height: 23px;
+    display: inline-block;
+    margin: 0 20px;
+    background: #ccc;
+    position: relative;
+    top: 5px;
+}
+
+.ruzhu-tit>a {
+    color: #7fc4d2;
+    font-size: 14px;
+    margin-left: 6px;
+}
+
+.ruzhu-tit>img {
+    margin-left: 10px;
+}
+
+.ruzhu-box {
+    width: 1180px;
+    height: 155px;
+   margin: 15px auto 0;
+   overflow: hidden;
+}
+
+.ruzhu-box>div {
+    position: relative;
+    float: left;
+    width: 220px;
+    height: 155px;
+    background: url("../images/rz_bg_596c03c.jpg") no-repeat center bottom;
+    margin-right: 20px;
+}
+
+.ruzhu-box>div:last-child {
+    margin-right: 0;
+}
+
+.ruzhu-head-bg {
+    width: 118px;
+    height: 110px;
+    margin: 0 auto;
+    background-image: url("../images/index_z_203e03e.png");
+    background-position: -239px -741px;
+    transition: all .4s;
+}
+
+.ruzhu-head {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    margin-left: -50px;
+}
+
+.ruzhu-box>div:hover>.ruzhu-head-bg {
+    transform: rotate(90deg);
+}
+
+.ruzhu-desc {
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 5px;
+    color: purple;
+}
+/* 同人大触结束 */
+
+/* 试听盛宴开始 */
+.shiting {
+    width: 1180px;
+    height: 215px;
+    margin: 0 auto;
+    padding-bottom: 47px;
+}
+
+.shiting>a {
+    float: left;
+    width: 55px;
+    height: 146px;
+    background: url("../images/index_z_203e03e.png") no-repeat;
+    background-position: -790px -534px;
+}
+
+.st-box {
+    float: right;
+    width: 1090px;
+    height: 215px;
+    background: url("../images/shiting_bg_735f29c.jpg") no-repeat;
+    background-position: left 30px;
+}
+
+.st-box>div {
+    position: relative;
+    width: 250px;
+    height: 141px;
+    float: left;
+    margin-left: 20px;
+}
+
+.st-name {
+    font-size: 16px;
+    background: #000;
+    padding: 5px 10px;
+    color: #fff;
+    position: absolute;
+    right: -10px;
+    bottom: -10px;
+}
+
+/* 试听盛宴结束 */
+
+/* 泛娱乐样式开始 */
+.fun {
+    width: 1180px;
+    height: 516px;
+    margin: 0 auto 70px;  
+    background: url("../images/fun_bg_99effa1.jpg") no-repeat;
+    background-position: left 175px;
+    overflow: hidden;
+}
+
+.fun-tit {
+    width: 55px;
+    height: 140px;
+    float: left;
+    background: url("../images/index_z_203e03e.png");
+    background-position: -1037px -532px;
+}
+
+.fun-box {
+    position: relative;
+    width: 1125px;
+    height: 536px;
+    float:left;
+    margin-left: 0;
+}
+
+.fun-con {
+    position: relative;
+    width: 1060px;
+    height: 536px;
+    overflow: hidden;
+}
+
+.fun-box ul {
+    width: 2300px;
+    margin-top: 20px;
+    position: absolute;
+    left: 0;
+    transition: all .5s;
+}
+
+.fun-box li {
+    width: 220px;
+    height: 516px;
+    float: left;
+    margin-right: 10px;
+    transition: all .4s;
+}
+
+.fun-box li:hover {
+    transform: translateY(-20px);
+}
+
+.fun-btn-left,
+.fun-btn-right {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background: #fff;
+    border: 1px solid #c2a060;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+}
+
+.fun-btn-left {
+    left: -36px;
+    display: none;
+}
+
+.fun-btn-right {
+    right: -36px;
+}
+
+/* 泛娱乐样式结束 */
+
+/* 京都商业街样式开始 */
+.jingdu {
+    width: 1180px;
+    height: 277px;
+    margin: 0 auto 40px; 
+    overflow: hidden;
+}
+
+.jingdu>a {
+    width: 53px;
+    height: 184px;
+    float: left;
+    margin-right: 67px;
+    background: url("../images/index_z_203e03e.png") no-repeat;
+    background-position: -645px -532px;
+}
+
+.jingdu-box {
+    position: relative;
+    width: 1060px;
+    height: 257px;
+    float: left;
+    padding-top: 20px;
+}
+
+.jingdu-box li {
+    float: left;
+    width: 250px;
+    height: 174px;
+    margin-right: 20px;
+    transition: all .4s;
+}
+
+.jingdu-box li:hover {
+    transform: translateY(-20px);
+}
+
+.jingdu-box li:last-child {
+    margin-right: 0;
+}
+
+.jingdu-line {
+    background: rgb(239, 239, 239);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 1060px;
+    height: 5px;
+}
+
+.jingdu-cursor {
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    width: 245px;
+    height: 28px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(194, 160, 96);
+    cursor: pointer;
+    color: #c2a060;
+    line-height: 26px;
+    font-size: 12px;
+}
+
+/* 京都商业街样式结束 */
+
+
+
+
